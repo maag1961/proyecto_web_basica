@@ -6,9 +6,18 @@
   <title>Mi web de cervezas</title>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+  function toggle_visibility(id) {
+  	   var e = document.getElementById(id);
+  	   if(e.style.display == 'block')
+  	      e.style.display = 'none';
+  	   else
+  	      e.style.display = 'block';
+  	}
+  </script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.runtime.js"></script>
   <script src="js/templates.js"></script>
- 
+
 </head>
 
 <body>
