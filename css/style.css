@@ -57,7 +57,17 @@ overflow: hidden;
 
 .container {
   margin: 0 5px;
+    overflow: auto;
 }
+  aside {
+    float: left;
+    width: 20%;
+  }
+  main {
+    float: left;
+    width: 80%;
+  }
+
 @media screen and (min-width:701px) {
   .container {
     width: 690px;
@@ -75,3 +85,6 @@ overflow: hidden;
     width: 1190px;
   }
 }
+
+
+ 
